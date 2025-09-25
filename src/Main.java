@@ -66,10 +66,10 @@ public class Main {
 
         // Задание 6 - Задача - Вес коктейля
         System.out.println("\nЗадача 6");
-        var weightBanana     =  5 * 80;           // грамм. - 1 банан весин 80 грамм
-        var weightMilk       =  200 / 100 * 105;  // грамм. - 100 мл = 105 грамм
-        var weightIceCream   =  2 * 100;          // грамм. - 1 брикет 100 грамм
-        var weightEggs   =  4 * 70;           // грамм. - 1 яйцо 70 грамм
+        short weightBanana     =  5 * 80;           // грамм. - 1 банан весин 80 грамм
+        short weightMilk       =  200 / 100 * 105;  // грамм. - 100 мл = 105 грамм
+        short weightIceCream   =  2 * 100;          // грамм. - 1 брикет 100 грамм
+        short weightEggs   =  4 * 70;           // грамм. - 1 яйцо 70 грамм
 
         short weightCocktail = (short) (weightBanana + weightMilk + weightIceCream + weightEggs);
         System.out.println("Вес коктейля составит " + weightCocktail + " грамм ");
